@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "10.0"
   s.source       = {
       :git => "https://github.com/shiguredo/sora-ios-sdk.git",
-      :branch => "develop"
+      :branch => "feature/rename-active-speaker-limit-to-spotlight-number"
   }
   s.source_files  = "Sora/**/*.swift"
   s.resources = ['Sora/info.json', 'Sora/*.xib']
